@@ -1,9 +1,11 @@
 ## 🧩 Included Sequential Flip-Flops
 
-### 🔹 SR Flip-Flop
-- SR-flipflop.v
-- SR-flipflop_tb.v
+This repository contains Verilog implementations of fundamental combinational circuits.
 
-### 🔹 D Flip-Flop
-- D-flipflop.v
-- D-flipflop_tb.v
+Each design includes:
+
+--Verilog modules
+
+--Corresponding testbenches
+Contents
+
