@@ -1,6 +1,6 @@
 ## 🧩 Included Sequential Flip-Flops
 
-This repository contains Verilog implementations of fundamental combinational circuits.
+This repository contains Verilog implementations of basic sequential circuits.
 
 Each design includes:
 
