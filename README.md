@@ -10,15 +10,9 @@ Each design includes:
 
 Contents
 
-1.D-flipflop
+1.Flipflops
 
-2.SR-flipflop
+2.Shift Registers
 
-3.T-flipflop
-
-4.JK-flipflop
-
-5.Shift Registers
-
-6.Counters
+3.Counters
 
