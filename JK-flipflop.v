@@ -1,14 +1,14 @@
-module(clk,j,k,q,qb);
+module jkff(clk,j,k,q,qb);
 input clk,j,k;
-output q,qb;
+output reg q,qb;
 always@(posedge clk)
 begin
-  case({j,k})
-  2'b00:q<=q;qb<=qb;
-  2'b01:q<=0;qb<=1;
-  2'b10:q<=1;q<=0;
-  2'b11:q<=qb;qb<=q;
+  case({j, k})
+  2'b00:q<=q;
+  2'b01:q<=0;
+  2'b10:q<=1;
+  2'b11:q<=qb;
   endcase
-  qb=~q;
+  qb<=~q;
 end
 endmodule
